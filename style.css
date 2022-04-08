@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+  font-family: "Sansita Swashed", cursive;
+}
+.center {
+    position: relative;
+    padding: 50px 50px;
+    background: #fff;
+    border-radius: 10px;
+}
+.center h1 {
+    font-size: 2em;
+    border-left: 5px solid dodgerblue;
+    padding: 10px;
+    color: #000;
+    letter-spacing: 5px;
+    margin-bottom: 60px;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  
+.center .inputbox {
+    position: relative;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 50px;
+  }
+  .center .inputbox input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 2px solid #000;
+    outline: none;
+    background: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .center .inputbox:last-child {
+    margin-bottom: 0;
+  }
+  .center .inputbox span {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    font-size: 1em;
+    transition: 0.6s;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .center .inputbox input:focus ~ span,
+  .center .inputbox input:valid ~ span {
+    transform: translateX(-13px) translateY(-35px);
+    font-size: 1em;
+  }
+  .center .inputbox [type="submit"] {
+    width: 50%;
+    background: dodgerblue;
+    color: #fff;
+    border: #fff;
+  }
+  .center .inputbox:hover [type="submit"] {
+    background: linear-gradient(45deg, greenyellow, dodgerblue);
+  }
+  
+  tr:hover {
+      background-color: coral;
+    }
+    #session
+    {
+        position:fixed;
+        top: 0px;
+        bottom: 0px;
+        height: 4px;
+    }
+    #heading
+    {
+        position: fixed;
+        top: 100px;
+        bottom: 0px;
+        text-align: center;
+        height: 10px;
+    }
+    #button{
+        position: fixed;
+        top: 220px;
+        bottom: 0px;
+        text-align: center;
+        height: 20px;
+    }
+    #button1{
+
+        background-color: #053b07;
+        border: none;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor:pointer;
+        border-radius: 12px;
+    }
+    #button2{
+
+        background-color: #ac0505;
+        border: none;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor:pointer;
+        border-radius: 12px;
+    }
+    #table_div{
+      position: relative;
+      top: 10px;
+      bottom: 0px;
+      text-align: center;
+  }
+  #cust
+  {position: relative;
+    top: 130px;
+    bottom: 0px;
+    float: left;
+    height: 80px;
+   
+    
+  }
+  .form-group {
+    margin-bottom: 20px;
+    float: right;
+  }
+  .form-control {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    -webkit-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+  }
+  input[type=text] {
+    border: 2px solid rgb(2, 0, 0);
+    border-radius: 4px;
+    width: 100%;
+    padding: 12px 20px;
+  }
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    
+  }
+  #item_table{
+
+    position: relative;
+    top: 300px;
+    bottom: 0px;
+  }
+  #invoice_button{
+    position: relative;
+    top: 340px;
+  }
+  select {
+    width: 120px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+  #amount{
+    position: relative;
+    top: 380px;
+    bottom: 0px;
+  }
+  input[type=invoice] {
+    border: 2px solid rgb(2, 0, 0);
+    border-radius: 4px;
+    width: 120px;
+    padding: 12px 20px;
+  }
+  input[type=date] {
+    border: 2px solid rgb(2, 0, 0);
+    border-radius: 4px;
+    width: 120px;
+    padding: 12px 20px;
+  }
+  input[type=submit] {
+    background-color: #053b07;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor:pointer;
+    border-radius: 12px;
+  }
+  input[type=number] {
+    border: 2px solid rgb(2, 0, 0);
+    border-radius: 4px;
+    width: 120px;
+    padding: 12px 20px;
+  }
+
+  
+ 
